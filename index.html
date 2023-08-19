@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YesWeCode</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+   
+    <main>
+      <header>
+        <a href=""><img src="image/logo.png" alt="" width="30" /></a>
+        <nav>
+          <ul id="options">
+            <li>
+              <a href="">Página Inicial</a>
+            </li>
+  
+            <li>
+              <a href=""><a href="">Para você</a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="25"
+                viewBox="0 -960 960 960"
+                width="25"
+              >
+                <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
+              </svg>
+            </li>
+            <li>
+              <a href=""><a href="">Para seu negócio</a>
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="25"
+              viewBox="0 -960 960 960"
+              width="25"
+            >
+              <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
+            </svg>
+            </li>
+            <li>
+              <a href=""><a href="">Sobre nós</a
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="25"
+                viewBox="0 -960 960 960"
+                width="25"
+              >
+                <path d="M480-345 240-585l43-43 197 198 197-197 43 43-240 239Z" />
+              </svg>
+            </li>
+            <li>
+              <a href=""><a href="" target="_blank">Ajuda</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <div id="login">
+          <a href="">Login </a
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="30"
+            viewBox="0 -960 960 960"
+            width="30"
+          >
+            <path
+              d="M481-120v-60h299v-600H481v-60h299q24 0 42 18t18 42v600q0 24-18 42t-42 18H481Zm-55-185-43-43 102-102H120v-60h363L381-612l43-43 176 176-174 174Z"
+            />
+          </svg>
+          <hr />
+        </div>
+      </header>
+  
+      <div id="left">
+        <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptate vero aspernatur, alias adipisci cum quam iusto consequatur maxime? Suscipit, necessitatibus placeat? Consequatur autem at, odio beatae eum ipsam similique.
+        </p>
+      </div>
+      <div id="right">
+        <h2>Insira seu nome para começar o cadastro</h2>
+        <form>
+          <input type="text" id="nome" placeholder="Digite seu Nome" autocomplete="off"/>
+          <button id="continuar" class="" disabled>Iniciar<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25"><path d="M686-450H160v-60h526L438-758l42-42 320 320-320 320-42-42 248-248Z"/></svg></button>
+        </form>
+      </div>
+    </main>
+
+    <section id="cadastro" class="">
+      <div id="section-left">
+        <h2>Complete os campos ao lado para iniciar o seu cadastro!</h2>
+        <img src="image/Login-pana.png" width="400">
+      </div>
+      <div id="section-right">
+       <div id="close"> <button id="fechar"></button></div>
+        <form >
+          <input id="nomeCompleto" type="text" placeholder="Nome Completo" required autocomplete="off" >
+          <input id="idade" type="number" placeholder="Idade" required min="18" >
+          <input id="cpf" type="text" placeholder="CPF"required autocomplete="off" maxlength="14" >
+          <input id="senha" type="password" placeholder="Senha" required autocomplete="off" >
+          <input id="email" type="email" placeholder="E-mail" required autocomplete="off" >
+          <button id="enviar" disabled>Continuar</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="endereco" class="">
+      <div id="section-left">
+        <h2>Complete os campos ao lado para concluir o seu cadastro!</h2>
+        <img src="image/Globalization-pana.png" width="400">
+      </div>
+      <div id="section-right">
+       <div id="close"> <button id="fecharEndereco"></button></div>
+        <form >
+          <input id="cep" type="text" placeholder="Cep" required autocomplete="off">
+          <input id="logradouro" type="text" placeholder="Endereço" required autocomplete="off">
+          <input id="bairro" type="text" placeholder="Bairro"required autocomplete="off">
+          <input id="cidade" type="text" placeholder="Cidade" required autocomplete="off">
+          <input id="numero" type="text" placeholder="Número da residência" required autocomplete="off">
+          <button id="concluir" disabled>Enviar</button>
+        </form>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
